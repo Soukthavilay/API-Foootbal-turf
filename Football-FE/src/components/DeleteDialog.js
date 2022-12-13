@@ -14,8 +14,6 @@ class DeleteDialog extends Component {
       }
    }
 
-   ///// METHODS FOR HANDLING UI EVENTS /////
-
    changeConfirmationValue = e => {
       const confirmationValue = e.target.value
 
@@ -57,8 +55,6 @@ class DeleteDialog extends Component {
       }
    }
 
-   ///// METHODS FOR CHECKING VALUES /////
-
    isValidConfirmationValue = () => {
       const { confirmationValue } = this.state
       const { settings } = this.props
@@ -66,8 +62,6 @@ class DeleteDialog extends Component {
 
       return confirmationValue === id
    }
-
-   ///// METHODS FOR RENDERING UI /////
 
    showSuccessNotification = () => {
       const { showNotification, settings } = this.props
