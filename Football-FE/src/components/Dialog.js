@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class Dialog extends Component {
-   ///// METHODS FOR RENDERING UI /////
+   //Test
 
    renderHeader = () => {
       const { renderHeaderTop, renderHeaderMain } = this
